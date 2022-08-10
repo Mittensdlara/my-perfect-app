@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <div className='container'>
         
-        <Weather />
+        <Weather defaultCity="Tehran" />
          <footer>
            This project is coded by Del and it is
            <a href='https://github.com/mittensdlara/my-perfect-app' rel="noreferrer" target="_blank"> Open source on Github</a>
