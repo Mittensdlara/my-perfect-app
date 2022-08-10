@@ -12,7 +12,7 @@ export default function App() {
         <Weather />
          <footer>
            This project is coded by Del and it is
-           <a href='https://github.com/mittensdlara/my-perfect-app' rel="noreferrer" target="_blank">Open source on Github</a>
+           <a href='https://github.com/mittensdlara/my-perfect-app' rel="noreferrer" target="_blank"> Open source on Github</a>
 
 
         </footer>
