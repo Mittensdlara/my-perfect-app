@@ -1,0 +1,29 @@
+.Weather {
+    border: 2px solid #FFF5CC;
+    padding: 16px;
+ 
+    border-radius: 5px;
+   
+}
+
+    
+
+ .Weather h1 {
+     margin: 20px 0 0 0;
+ }
+
+ .Weather .temperature {
+     font-size: 40px;
+     line-height: 60px;
+     font-weight: bold;
+    
+ }
+.Weather .unit {
+    font-size: 16px;
+    position: relative;
+    top: -15px;
+}
+ .Weather img {
+    float: left;
+     margin-right: 10px;
+ }
