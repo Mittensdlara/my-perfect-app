@@ -18,7 +18,7 @@ export default function Weather(props) {
      setHumidity(response.data.main.humidity);
      setWind(Math.round(response.data.wind.speed));
      setDescription(response.data.weather[0].description);
-     setImg("https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png")
+     setImg(`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`)
      setDate(new Date(response.data.dt *1000))
      setCity(response.data.name);
      setReady(true);
