@@ -12,18 +12,25 @@
      margin: 20px 0 0 0;
  }
 
- .Weather .temperature {
-     font-size: 40px;
-     line-height: 60px;
+ .WeatherTemperature .temperature {
+     font-size: 50px;
+     line-height: 70px;
      font-weight: bold;
+     margin-left: -18px;
+    
+     
+
+     
     
  }
-.Weather .unit {
+.WeatherTemperature .unit {
     font-size: 16px;
     position: relative;
-    top: -15px;
+    margin-left: 10px;
+    
 }
  .Weather img {
     float: left;
      margin-right: 10px;
+     margin-top: -12px;
  }
