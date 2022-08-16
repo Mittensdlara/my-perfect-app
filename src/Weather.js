@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherTemperrature from "./WeatherTemperature";
+import WeatherForecast from "./WeatherForecast";
 import "./Weather.css"
 import axios from "axios"
 export default function Weather(props) {
@@ -12,6 +13,8 @@ export default function Weather(props) {
     const [img, setImg] = useState(null);
     const [date, setDate] = useState(null);
     const [city, setCity] = useState(props.defaultCity);
+    const [coordinates, setCordinates] = useState(null);
+ 
 
  function handleResponse(response) {
      console.log(response.data);
@@ -23,6 +26,7 @@ export default function Weather(props) {
      setDate(new Date(response.data.dt *1000))
      setCity(response.data.name);
      setReady(true);
+     setCordinates(response.data.coord);
  }
  function handleSubmit(event) {
      event.preventDefault();
@@ -79,6 +83,9 @@ if (ready) {
                       </li>
                   </ul>
                 </div>
+
+                <WeatherForecast coordinates={coordinates} />
+
             </div>
         </div>
         );
