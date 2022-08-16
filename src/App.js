@@ -12,7 +12,9 @@ export default function App() {
         <Weather defaultCity="Tehran" />
          <footer>
            This project is coded by Del and it is
-           <a href='https://github.com/mittensdlara/my-perfect-app' rel="noreferrer" target="_blank"> Open source on Github</a>
+           <a href='https://github.com/mittensdlara/my-perfect-app' rel="noreferrer" target="_blank"> Open source on Github </a> and <a href='https://www.netlify.com' rel='noreferrer' target="_blank">
+           hosted on Netlify
+           </a>
 
 
         </footer>
